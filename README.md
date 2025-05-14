@@ -95,7 +95,8 @@ EpiXposome aims to decode the impact of environmental exposures on epigenetic ch
 
 ## 🌐 Process Flowchart
 
-For a visual representation of our process, you can view our [concept flowchart](https://lucid.app/lucidspark/1ffd7682-7663-43bf-a491-b70901eb0e65/edit?invitationId=inv_a8695350-5641-4533-905f-f5fa7ed34993&page=0_0).
+![Team 7 Flow-](https://github.com/user-attachments/assets/c951674f-5289-4550-abc4-d2d66c55290f)
+
 
 ## 💡 Tips
 
