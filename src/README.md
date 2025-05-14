@@ -28,3 +28,21 @@ Run the following scripts in order to download and process the data and generate
 The generated TSV files will be output in the respective folders.
 
 > **Note:** The TSV files are currently available on [Google Drive](https://drive.google.com/drive/folders/1aGPg6hM5spdGACS-6wneKl2N1DHL2uOZ).
+
+3. **Exposome data**
+
+   
+demographic data
+```bash
+wget -P ~/Downloads/nhanes https://wwwn.cdc.gov/Nchs/Nhanes/2017-2020/P_DEMO.xpt.txt
+```
+
+physical activity data
+```bash
+wget -P ~/Downloads/nhanes https://wwwn.cdc.gov/Nchs/Nhanes/2017-2020/P_PAQ.xpt.txt
+```
+
+diet data
+```bash
+wget -P ~/Downloads/nhanes https://wwwn.cdc.gov/Nchs/Nhanes/2017-2020/P_DR1IFF.xpt.txt
+```
