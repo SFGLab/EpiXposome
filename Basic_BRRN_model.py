@@ -1,3 +1,7 @@
+import pandas as pd
+
+df=pd.read_csv("sample_dataset.csv",delimiter=",")
+
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, Bidirectional, LSTM, Dense
 
