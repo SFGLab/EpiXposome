@@ -126,6 +126,6 @@ EpiXposome aims to decode the impact of environmental exposures on epigenetic ch
 - Kirtan Dave
 - Paul Kao
 - Macciej Kowalski
-- Aung
+- Aung Myat Phyo
 - Diya
 - Alishba Nadeem
