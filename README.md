@@ -40,13 +40,12 @@ EpiXposome aims to decode the impact of environmental exposures on epigenetic ch
 
 ## 🔗 Dependencies
 
-- Python
+- Python 3.11+
 - BRNNs
 - Bidirectional LSTMs (BiLSTMs)
 - GRUs
 - RNNs
 - XGBoost
-- Genetic algorithm
 - Logistic regression models
 - JSSS
 - AWS CLI
@@ -69,11 +68,15 @@ EpiXposome aims to decode the impact of environmental exposures on epigenetic ch
 2. **Step 2: Data Preprocessing**
    - Clean and impute missing data for robust analysis.
    - Prepare the data by addressing any quality control issues.
+  
+3. **Dimension reduction and Data Integration**
+   - Use PCA to reduce dimensionality of data.
+   - NMF to integrate disparate data sets and find the underlying relationships.
 
 3. **Step 3: Data Splitting**
-   - Randomly split the dataset into training (80%) and testing (20%) sets.
+   - Randomly split the dataset into training (80%) and testing (20%) sets using SKLearn.
 
-4. **Step 4: Model Backoff and Selection**
+4. **Step 4: Model Bakeoff and Selection**
    - Explore a variety of Bidirectional Recurrent Neural Networks (BiRNNs) to compare performance.
    - Consider other models like Artificial Neural Networks (ANNs), Long Short-Term Memory networks (LSTMs), and Gated Recurrent Units (GRUs) if necessary.
 
