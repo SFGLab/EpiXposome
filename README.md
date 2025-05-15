@@ -107,7 +107,8 @@ NMF formula:
 
 ## 🌐 Process Flowchart
 
-![Team 7 Flow-](https://github.com/user-attachments/assets/c951674f-5289-4550-abc4-d2d66c55290f)
+![Team 7 Flow- (2)](https://github.com/user-attachments/assets/ee6e75ac-c7c8-4575-b431-2fa822ad97f9)
+
 
 
 ## 💡 Tips
