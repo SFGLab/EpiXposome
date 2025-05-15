@@ -70,31 +70,31 @@ EpiXposome aims to decode the impact of environmental exposures on epigenetic ch
    - Clean and impute missing data for robust analysis.
    - Prepare the data by addressing any quality control issues.
   
-3. **Dimensionality Reduction and Data Integration**
+3. **Step 3: Dimensionality Reduction and Data Integration**
    - Use PCA to reduce dimensions down to three.
    - Use Non-Negative Matrix Factorization (NMF) to integrate disparate data sets and find underlying relationships.
 
-4. **Step 3: Data Splitting**
+4. **Step 4: Data Splitting**
    - Randomly split the dataset into training (80%) and testing (20%) sets.
 
-5. **Step 4: Model Backoff and Selection**
+5. **Step 5: Model Backoff and Selection**
    - Explore a variety of Bidirectional Recurrent Neural Networks (BiRNNs) to compare performance.
    - Consider other models like Artificial Neural Networks (ANNs), Long Short-Term Memory networks (LSTMs), and Gated Recurrent Units (GRUs) if necessary.
 
-6. **Step 5: Model Training**
+6. **Step 6: Model Training**
    - Train the selected machine learning model using the training dataset.
 
-7. **Step 6: Model Testing**
+7. **Step 7: Model Testing**
    - Assess the model's performance using the testing dataset to validate its accuracy.
 
-8. **Step 7: Experimentation**
+8. **Step 8: Experimentation**
    - Investigate the effects of different exposome variables on mRNA and methylation activity.
    - Determine if there are specific genes or pathways involved.
 
-9. **Step 8: Results Interpretation**
+9. **Step 9: Results Interpretation**
    - Use bioinformatics analyses (like GSEA, GO) to interpret the model's findings.
 
-10. **Step 9: Visualization**
+10. **Step 10: Visualization**
    - Develop visualizations to represent the results clearly (e.g., time-altered line plots).
 
 ## 🌐 Process Flowchart
