@@ -73,13 +73,21 @@ EpiXposome aims to decode the impact of environmental exposures on epigenetic ch
 3. **Step 3: Dimensionality Reduction and Data Integration**
    - Use PCA to reduce dimensions down to three.
    - Use Non-Negative Matrix Factorization (NMF) to integrate disparate data sets and find underlying relationships.
+  
+NMF formula:
+
+<img width="739" alt="Screenshot 2025-05-15 at 11 34 57 AM" src="https://github.com/user-attachments/assets/0b854790-48f7-4e67-bca8-5b370bc565c5" />
+
 
 4. **Step 4: Data Splitting**
    - Randomly split the dataset into training (80%) and testing (20%) sets.
 
-5. **Step 5: Model Backoff and Selection**
-   - Explore a variety of Bidirectional Recurrent Neural Networks (BiRNNs) to compare performance.
-   - Consider other models like Artificial Neural Networks (ANNs), Long Short-Term Memory networks (LSTMs), and Gated Recurrent Units (GRUs) if necessary.
+5. **Step 5: Bidirectional Recurrent Neural Networks (BiRNNs)**
+   - Run Bidirectional Recurrent Neural Networks (BiRNNs) model to determine dependencies between exposome variables,
+     methylation and microRNA data sets.
+
+![image](https://github.com/user-attachments/assets/06db20f6-dea6-4817-b1b2-13e05dd4c721)
+
 
 6. **Step 6: Model Training**
    - Train the selected machine learning model using the training dataset.
