@@ -18,7 +18,7 @@ EpiXposome aims to decode the impact of environmental exposures on epigenetic ch
 ### **Data Preprocessing Parameters**
 - `missing_data_threshold`
 - `normalization_method`
-- `batch_size
+- `batch_size`
 
 ### **Model Training Parameters**
 #### **Bidirectional RNNs (BRNNs) / BiLSTMs / GRUs**
@@ -52,11 +52,11 @@ EpiXposome aims to decode the impact of environmental exposures on epigenetic ch
 - AWS CLI
 
 ## 📥 Example Inputs
-
+`geneexp` `mirna exp` `tccga`
 
 
 ## 📤 Example Outputs
-
+`.csv` `.json`
 
 ## Steps
 
@@ -111,15 +111,6 @@ NMF formula:
 ![Team 7 Flow- (4)](https://github.com/user-attachments/assets/15bfaca4-d279-435f-9249-db929101838b)
 
 
-
-## 💡 Tips
-
-## 🔗 Useful Links
-
-- [Installing or updating to the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-- [Exposome: Epigenetics and autoimmune diseases - PubMed](https://pubmed.ncbi.nlm.nih.gov/39097180/)
-- [Mutual regulation of microRNAs and DNA methylation in human cancers](https://pmc.ncbi.nlm.nih.gov/articles/PMC5406215/)
-
 ## 🔮 Future Aims
 
 - **Standardization and Packaging**
@@ -143,3 +134,10 @@ NMF formula:
 - Aung Myat Phyo
 - Diya
 - Alishba Nadeem
+
+## 🔗 References
+
+- [Installing or updating to the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+- [Exposome: Epigenetics and autoimmune diseases - PubMed](https://pubmed.ncbi.nlm.nih.gov/39097180/)
+- [Mutual regulation of microRNAs and DNA methylation in human cancers](https://pmc.ncbi.nlm.nih.gov/articles/PMC5406215/)
+- https://academic.oup.com/bioinformatics/article/41/2/btaf066/8005856
